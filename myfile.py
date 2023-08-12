@@ -1,1 +1,1 @@
-my first_python_file
+print("my first_python_file")
