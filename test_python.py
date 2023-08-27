@@ -1,1 +1,1 @@
-print("HELLO KHALID")
+print("HELLO KHALID - HELLO FROM PYTHON")
