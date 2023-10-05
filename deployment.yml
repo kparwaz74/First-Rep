@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jenkins-python-app
+  labels:
+    app: jenkins-python-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jenkins-python-app
+  template:
+    metadata:
+      labels:
+        app: jenkins-python-app
+    spec:
+      containers:
+      - name: python-app
+        image: kparwaz74/getting-started:jenkins-python
+        imagePullPolicy: "Always"
+        ports:
+        - containerPort: 5174
