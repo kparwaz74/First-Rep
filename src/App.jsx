@@ -65,8 +65,6 @@ const App = () => {
 
     return (
         <div> 
-            <h1>Let's see</h1>
-            <h2>kk</h2>
             <Header handle_create_task={add_to_tasks_list} />
             <Tasks old_state={old_state} get_all={get_all} getcompleted={getcompleted} setold_state={setold_state} count={count} check_toggle={check_toggle} set_status={setCompleted} tasks_arr={tasks} remove_task={remove_task} />
         </div>
