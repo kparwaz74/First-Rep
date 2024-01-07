@@ -7,7 +7,7 @@ spec:
   selector:
     app: jenkins-python-app
   ports:
-    - port: 81
-      targetPort: 5173
+    - port: 90
+      targetPort: 5190
       # Optional field
-      nodePort: 30010
+      nodePort: 30090
